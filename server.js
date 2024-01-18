@@ -7,7 +7,7 @@ const fs = require("fs");
 const app = express();
 const port = 3000;
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: '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',
 });
 const openai = new OpenAIApi(configuration);
 
